@@ -34,5 +34,9 @@
   ],
   "peerDependencies": {
     "react-admin": "^3.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DolDigital/ra-ckeditor-adv-input"
   }
 }
