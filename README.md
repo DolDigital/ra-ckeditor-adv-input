@@ -16,7 +16,7 @@ If you use CRA this package comes with a bundles configuration for @craco/craco
 
 **Create craco.config.js in CRA root**
 ```
-const { enableCKEWebpackConfigPlugin } = require('./src/ra-ckeditor-adv-input/lib/craco.config')
+const { enableCKEWebpackConfigPlugin } = require('@doldigital/ra-ckeditor-adv-input/lib/craco.config')
 module.exports = {
   webpack: {
     alias: {},
