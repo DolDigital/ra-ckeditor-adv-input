@@ -1,0 +1,38 @@
+{
+  "name": "@doldigital/ra-ckeditor-adv-input",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@ckeditor/ckeditor5-alignment": "^16.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^16.0.0",
+    "@ckeditor/ckeditor5-dev-utils": "^12.0.6",
+    "@ckeditor/ckeditor5-editor-classic": "^16.0.0",
+    "@ckeditor/ckeditor5-essentials": "^16.0.0",
+    "@ckeditor/ckeditor5-heading": "^16.0.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^16.0.0",
+    "@ckeditor/ckeditor5-indent": "^16.0.0",
+    "@ckeditor/ckeditor5-list": "^16.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^16.0.0",
+    "@ckeditor/ckeditor5-react": "^2.0.0",
+    "@ckeditor/ckeditor5-table": "^16.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^16.0.0",
+    "@monaco-editor/react": "^3.0.1",
+    "raw-loader": "3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.0",
+    "@babel/core": "^7.8.0",
+    "@babel/preset-react": "^7.8.0"
+  },
+  "scripts": {
+    "develop": "babel src --watch --out-dir lib",
+    "build": "rm -rf lib && babel src --out-dir lib"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "peerDependencies": {
+    "react-admin": "^3.1.2"
+  }
+}
